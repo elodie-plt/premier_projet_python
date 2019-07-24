@@ -9,7 +9,7 @@ entier = randint(1,1000)
 
 print("Bienvenue dans l'émission intitulée : Le Juste Prix")
 print("C'est très simple, vous devez trouver le prix exact d'un article")
-print("Ce prix est compris entre 1€ et 1000€ (valeur entière)"
+print("Ce prix est compris entre 1€ et 1000€ (valeur entière)")
 for nb_essais in range (1,11):
     print("il vous reste", 11-nb_essais,"essai(s).")
     entree=int(input("Entrez un prix:\n"))
